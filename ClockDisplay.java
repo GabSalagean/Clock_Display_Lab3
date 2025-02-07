@@ -20,7 +20,7 @@ public class ClockDisplay
     
     /**
      * Constructor for ClockDisplay objects. This constructor 
-     * creates a new clock set at 00:00.
+     // * creates a new clock set at 00:00.
      */
     public ClockDisplay()
     {
@@ -51,6 +51,7 @@ public class ClockDisplay
         if(minutes.getValue() == 0) {  // it just rolled over!
             hours.increment();
         }
+    
         updateDisplay();
     }
 
@@ -82,3 +83,19 @@ public class ClockDisplay
                         minutes.getDisplayValue();
     }
 }
+ /**
+  * Question 30: 
+  * //Rectangle window = new Rectangle (5,7);
+  * 
+  * Question 33:
+  * p1.print("file1.txt",true);
+  * p1.print("file2.txt", false);
+  * 
+  * int status = 0;
+  * status = p1.getStatus(3);
+  * int status = 0;
+  * status = p1.getStatus(30);
+  * 
+  * Question 36: no
+  */
+ 
